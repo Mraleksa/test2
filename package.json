@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "main": "scraper.js",
   "dependencies": {
-    "cheerio": "latest",
-    "request": "latest",
-    "sqlite3": "latest"
+    "async": "^1.5.2",
+    "request": "^2.69.0",
+    "sqlite3": "^3.1.1"
   },
   "keywords": [
     "scraper",
