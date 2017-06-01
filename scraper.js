@@ -3,7 +3,7 @@ var async = require('async');
 var sqlite3 = require('sqlite3').verbose();
 
 function requestFunction(){
-    request('http://www.landkreis-heilbronn.de/zulassung/kfz.json', function (error, response, html) {
+    request('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=USD&date=20161215&json', function (error, response, html) {
         if (!error && response.statusCode == 200) {
 
             async.series([function (callback) {
